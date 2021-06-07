@@ -7,9 +7,6 @@ RUN pip3 --disable-pip-version-check --no-cache-dir install -r /tmp/pip-tmp/requ
    && rm -rf /tmp/pip-tmp
 # ENV PATH="$HOME/.local/bin:$PATH"
 
-COPY .devcontainer/google-drive-api.py /tmp/google-drive/
-# RUN python3 /tmp/google-drive/google-drive-api.py
-
 # [Optional] Uncomment this section to install additional OS packages.
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends wget
