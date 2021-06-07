@@ -1,5 +1,5 @@
 # Project structure
-Simple template for ML experiments.
+Simple template for ML experiments. 
 You have to define project and experiment names in the `cookiecutter.json` file.
 
 ```bash
