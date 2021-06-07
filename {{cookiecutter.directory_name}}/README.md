@@ -1,5 +1,6 @@
 Project structure
 
+```bash
 .
 ├── artifacts
 │   ├── train : Logfiles, trained models
@@ -9,6 +10,7 @@ Project structure
 ├── models : YAML defining models
 ├── optimizers : YAML defining optimizers
 └── train : Script to run the training
+```
 
 All hyperparameters, including the complete model, should be set in the configuration.
 
