@@ -14,7 +14,7 @@
 			"NODE_VERSION": "lts/*"
 		}
 	},
-
+	"runArgs": ["--gpus=1"],
 	// Set *default* container specific settings.json values on container create.
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/zsh",
