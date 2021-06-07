@@ -1,6 +1,7 @@
 # Project structure
 Simple template for ML experiments.  
 You have to define project and experiment names in the `cookiecutter.json` file.
+Includes container for developing inside [vscode remote containers](https://code.visualstudio.com/docs/remote/containers)
 
 ```bash
 .
