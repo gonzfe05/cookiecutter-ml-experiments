@@ -3,7 +3,8 @@ Project structure
 ```bash
 .
 ├── artifacts
-│   ├── train : Logfiles, trained models
+│   ├── train : Logfiles
+|   |   └── models : trained models
 │   └── test  : Logfiles
 ├── datasets : Data loading scripts
 ├── experiments : YAML defining the experiments parameters
